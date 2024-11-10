@@ -19,7 +19,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         fo = open("receivedFile", "w")
         fo.write(self.data)
 
-        print("Received")
+        print("Received file.")
 
         fo.close()
 
